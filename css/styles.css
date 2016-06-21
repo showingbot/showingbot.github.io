@@ -213,6 +213,11 @@ footer h4, footer h6 {
       background-color:#fff;
     }
 
+    .element {
+      position: relative;
+      /*bottom: 50%;*/
+      transform: translateY(80%);
+    }
 }
 
 header {
@@ -242,6 +247,11 @@ header .header-content .inner p {
     font-size: 16px;
     font-weight: 300;
     color: #222;
+}
+
+header img {
+  position: relative;
+  transform: translateY(-10%);
 }
 
 @media(min-width:34em) {
@@ -298,18 +308,18 @@ textarea {
     margin: 0 auto 20px;
 }
 
-.btn.btn-primary {
+/*.btn.btn-primary {
     background-color: transparent;
     border:1px solid #007FFF;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
     color:#007FFF;
-}
+}*/
 
-.btn.btn-primary:hover {
+/*.btn.btn-primary:hover {
     opacity: 0.7;
-}
+}*/
 
 .btn-primary-outline {
     border-color:#007FFF;
