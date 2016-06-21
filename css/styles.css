@@ -26,8 +26,8 @@ hr {
     margin-bottom: 25px;
 }
 
-hr.light {
-    border-color: #fff;
+hr.dark {
+    border-color: #000;
     opacity: 1;
 }
 
