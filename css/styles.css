@@ -125,6 +125,8 @@ footer h4, footer h6 {
 }
 
 .navbar-brand {
+    font-weight: bold;
+    font-size: 30px;
     color: #007FFF;
     padding: 1px;
     line-height: 1.90em;
@@ -193,7 +195,7 @@ footer h4, footer h6 {
     .navbar-default .navbar-brand:focus {
         color: #001A33;
     }
-    
+
     .navbar-default .nav > li>a,
     .navbar-default .nav>li>a:focus {
         color: #001A33;
@@ -210,7 +212,7 @@ footer h4, footer h6 {
     #topNav {
       background-color:#fff;
     }
-    
+
 }
 
 header {
@@ -246,7 +248,7 @@ header .header-content .inner p {
     .icon-lg {
         font-size: 80px;
     }
-    
+
     header {
         min-height: 100%;
     }
@@ -276,7 +278,7 @@ header .header-content .inner p {
         max-width: 80%;
         font-size: 18px;
     }
-    
+
     section {
         min-height: 600px;
         padding: 100px 0;
